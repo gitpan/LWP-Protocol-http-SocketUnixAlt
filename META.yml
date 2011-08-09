@@ -14,9 +14,10 @@ meta-spec:
   version: 1.4
 name: LWP-Protocol-http-SocketUnixAlt
 requires:
+  LWP::Protocol::http: 0
   Test::More: 0.96
   perl: 5.010000
 resources:
   homepage: http://search.cpan.org/dist/LWP-Protocol-http-SocketUnixAlt
   repository: http://github.com/sharyanto/perl-LWP-Protocol-http-SocketUnixAlt
-version: 0.0201
+version: 0.0202

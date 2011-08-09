@@ -9,7 +9,7 @@ use LWP::Protocol::http;
 
 @ISA = qw( LWP::Protocol::http );
 
-our $VERSION = '0.0201'; # VERSION
+our $VERSION = '0.0202'; # VERSION
 
 sub _new_socket {
 	my ($self, $path, $timeout) = @_;
@@ -287,7 +287,7 @@ LWP::Protocol::http::SocketUnixAlt - Speak HTTP through Unix sockets
 
 =head1 VERSION
 
-version 0.0201
+version 0.0202
 
 =head1 SYNOPSIS
 
@@ -298,7 +298,7 @@ version 0.0201
 =head1 DESCRIPTION
 
 LWP::Protocol::http::UnixSocketAlt is a fork of Florian Ragwitz's
-LWP::Protocol::http::SocketUnix 0.02. It fixes a few issues including:
+L<LWP::Protocol::http::SocketUnix> 0.02. It fixes a few issues including:
 
 =over 4
 

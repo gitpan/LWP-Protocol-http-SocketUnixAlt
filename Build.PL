@@ -17,12 +17,13 @@ my %module_build_args = (
     'Steven Haryanto <stevenharyanto@gmail.com>'
   ],
   'dist_name' => 'LWP-Protocol-http-SocketUnixAlt',
-  'dist_version' => '0.0201',
+  'dist_version' => '0.0202',
   'license' => 'perl',
   'module_name' => 'LWP::Protocol::http::SocketUnixAlt',
   'recommends' => {},
   'recursive_test_files' => 1,
   'requires' => {
+    'LWP::Protocol::http' => '0',
     'Test::More' => '0.96',
     'perl' => '5.010000'
   },
