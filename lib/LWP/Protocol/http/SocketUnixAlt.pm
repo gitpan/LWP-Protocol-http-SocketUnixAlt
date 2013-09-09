@@ -1,6 +1,6 @@
 package LWP::Protocol::http::SocketUnixAlt;
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 use vars qw( @ISA $VERSION );
@@ -9,7 +9,7 @@ use LWP::Protocol::http;
 
 @ISA = qw( LWP::Protocol::http );
 
-our $VERSION = '0.0202'; # VERSION
+our $VERSION = '0.0203'; # VERSION
 
 sub _new_socket {
 	my ($self, $path, $timeout) = @_;
@@ -278,6 +278,7 @@ sub peerhost { }
 1;
 # ABSTRACT: Speak HTTP through Unix sockets
 
+__END__
 
 =pod
 
@@ -287,7 +288,7 @@ LWP::Protocol::http::SocketUnixAlt - Speak HTTP through Unix sockets
 
 =head1 VERSION
 
-version 0.0202
+version 0.0203
 
 =head1 SYNOPSIS
 
@@ -324,13 +325,9 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Steven Haryanto.
+This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
